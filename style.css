@@ -1,0 +1,108 @@
+/* Global Properties */
+html {
+  scroll-behavior: smooth;
+}
+ul li{
+list-style-type: circle;
+list-style-position: outside;
+}
+body {
+  font-family: "Baloo Tamma 2", cursive;                
+   background: #1f2235; 
+}
+
+/* Main Heading Font */
+.m-heading {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+/* Navigation */
+.navigation-link {
+  background-color: #313552;
+  padding: 0.5rem;
+  border: #f5ba09 3px solid ;
+  border-radius: 0.5rem;
+}
+#about:hover{
+  border-bottom: 2px solid #f5ba09;
+  text-decoration-color: darkblue;
+}
+#about,#ed{
+  text-align: center;
+  padding: 0.5rem;
+  border: yellow solid 3px;
+  border-radius: 0.5rem;
+}
+#ed:hover{
+  border-bottom: 2px solid #f5ba09;
+  text-decoration-color: darkblue;
+}
+#aboutme,#eddetails,#pdmsdes,#srdes,#cbdes{
+  display: none;
+  padding: 0.5rem;
+  border: #f5ba09 solid 5px;
+  border-radius: 0.5rem;
+}
+.navigation-link:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #f5ba09;
+  transition: 0.5s ease;
+}
+
+/* Main Container height*/
+.main-container {
+  height: 60vh;
+}
+
+/* Aligning items in main row */
+.main_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Changing Name Font sixe */
+.main_row h1 {
+  font-size: 5rem;
+}
+
+/* Making the main image the size of the screen */
+.main_row img {
+  padding-top: 15px;;
+  width: 65vh;
+  height: 55vh;
+}
+
+
+/* About Section */
+.about {
+  background: #313552;
+  border-radius: 0.5rem;
+}
+
+.card {
+  border-bottom: 8px solid #f5ba09;
+}
+
+/* Social Media Section */
+#social-media {
+  background: #313552;
+}
+
+/* Add color to Social Media Links */
+.media_link {
+  padding: 1rem;
+  max-width: 15rem;
+  margin-left: 1rem;
+  border: 2px solid #f5ba09;
+  border-radius: 0.5rem;
+}
+.bi-instagram{
+  font-size: 30px;
+  color: darkgray;
+}
+a:hover{
+  text-decoration: none;
+}
+
+
